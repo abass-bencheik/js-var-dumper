@@ -1,0 +1,25 @@
+{
+  "name": "js-var-dumper",
+  "version": "1.0.0",
+  "description": "The same php var_dumper() in javaScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "dumpme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abass-bencheik/js-var-dumper.git"
+  },
+  "keywords": [
+    "express-dumper",
+    "var_dumper",
+    "dump",
+    "dumper"
+  ],
+  "author": "Abass <cheikabassben@gmail.com> (todaysdev.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abass-bencheik/js-var-dumper/issues"
+  },
+  "homepage": "https://github.com/abass-bencheik/js-var-dumper#readme"
+}
