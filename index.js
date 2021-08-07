@@ -1,1 +1,0 @@
-import dump from "./src/app.js";
