@@ -1,6 +1,6 @@
 {
   "name": "js-var-dumper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The same php var_dumper() in javaScript",
   "main": "src/app.js",
   "type": "module",
