@@ -1,8 +1,7 @@
-const dumper = require("./dumper")
-const dataType = require("./data-type")
+import dumper from "./dumper.js"
+import check from "./data-type.js"
 
-function dump(data) {
-  return dataType.check(data);
+export default function dump(data) {
+  return check(data);
 }
 
-module.exports = dump;
