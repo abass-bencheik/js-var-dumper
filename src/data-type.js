@@ -1,19 +1,19 @@
-const config = require("./config");
+import template from "./template.js"
 
 function stringType(data){
-  return config.template("string", data, data.length);
+  return template("string", data, data.length);
 }
 
 function intType(data){
-  return config.template("integer", data, null)
+  return template("integer", data, null)
 }
 
 function intObject(data){
-  return config.template("object", data, data.length)
+  return template("object", data, data.length)
 }
 
 function check(data){
-  dataType = typeof data;
+  let dataType = typeof data;
   switch (dataType) {
     case 'string':
        return  stringType(data)
@@ -30,8 +30,4 @@ function check(data){
   }
 }
 
-module.exports = {
-  check,
-  stringType,
-  intType,
-}
+export default check

@@ -13,4 +13,4 @@ class dumper {
   }
 }
 
-module.exports = new dumper()
+export default new dumper()

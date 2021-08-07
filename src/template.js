@@ -27,4 +27,4 @@ function template(type, value, length = null){
                   "</div>";
 }
 
-module.exports = template;
+export default template;
