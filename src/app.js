@@ -1,5 +1,8 @@
+const dumper = require("./dumper")
+const dataType = require("./data-type")
+
 function dump(data) {
-  // TODO
+  return dataType.check(data);
 }
 
 module.exports = dump;
