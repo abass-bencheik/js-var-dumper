@@ -5,7 +5,7 @@ The same php var_dump() in JavaScript
 
 # Getting Started
 
-## Installation with nodejs
+## Installation with ES6
 
 ```bash
 npm install js-var-dumper
@@ -28,7 +28,7 @@ dump(test2);
 dump(test3);
 ```
 
-## Installation with ES6
+## Installation with CDN
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/js-var-dumper@1.0.5/dump/min.dump.js"></script>
