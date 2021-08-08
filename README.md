@@ -27,7 +27,18 @@ dump(test1);
 dump(test2);
 dump(test3);
 ```
+## using express
+```javascript
+const express = require("express")
+const dump = require('js-var-dumper');
+let app = express();
 
+app.get("/", (req, res) => {
+  res.send(dump("Hello"))
+})
+
+app.listen(8000);
+```
 ## Installation with CDN
 
 ```html
