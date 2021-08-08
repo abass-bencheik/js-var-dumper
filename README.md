@@ -1,5 +1,5 @@
 # js-var-dumper
-The same php var_dump() in JavaScript, output to the screen instead of console
+The same php var_dump() in JavaScript, output in the document instead of console
 
 [![Version npm](https://img.shields.io/npm/v/js-var-dumper.svg)](https://www.npmjs.com/package/js-var-dumper)
 
