@@ -8,7 +8,7 @@ The same php var_dump() in JavaScript, output in the document instead of console
 ## Installation with ES6
 
 ```bash
-npm install js-var-dumper
+$ npm install js-var-dumper
 ```
 
 ## Usage
