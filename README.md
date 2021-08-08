@@ -59,3 +59,6 @@ dump(test3);
 </body>
 </html>
 ```
+
+## Test
+Now see the results yourself [here](https://abass-bencheik.github.io/js-var-dumper/)
